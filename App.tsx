@@ -1,20 +1,26 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+// react query
+import { QueryClientProvider, QueryClient } from "react-query";
 
-export default function App() {
+// providers
+
+import { ToastProvider } from "react-native-toast-notifications";
+import { AuthProvider } from "./contexts/AuthContext";
+
+// navigation
+import Navigation from "./navigation/Navigation";
+
+const client = new QueryClient();
+
+const App = () => {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <QueryClientProvider client={client}>
+      <ToastProvider>
+        <AuthProvider>
+          <Navigation />
+        </AuthProvider>
+      </ToastProvider>
+    </QueryClientProvider>
   );
-}
+};
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+export default App;
