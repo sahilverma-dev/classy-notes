@@ -48,15 +48,7 @@ Coming Soon
 
 ## View Preview
 
-<iframe
-    width="640"
-    height="360"
-    src="https://www.youtube.com/embed/ldbconEZ040"
-    frameborder="0"
-    allow="autoplay; encrypted-media"
-    allowfullscreen
->
-</iframe>
+[![Watch the video](https://img.youtube.com/vi/ldbconEZ040/maxresdefault.jpg)](https://youtu.be/ldbconEZ040)
 
 ## Screenshots
 
