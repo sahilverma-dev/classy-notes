@@ -2,15 +2,43 @@
 
 ![Classy Notes](/screenshots/poster.png)
 
-Reddit Wallpapers a stunning mobile wallpaper app built with React Native in Expo. Discover high-quality wallpapers across various categories, personalize your device's aesthetics, and enjoy a seamless browsing experience. With secure authentication powered by Firebase and enhanced by TypeScript, our app brings beauty to your fingertips.
+A beautiful note taking mobile app built with React Native, Lottie Animations, Typescript, React Query and Firebase.
 
 ## Features
 
-- Vast Collection: Explore a vast collection of high-quality wallpapers across a wide range of categories, including nature, landscapes, abstract art, animals, and more from popular sub-reddits.
-- Favorites Collection: Create a personalized collection of favorite wallpapers, allowing you to quickly access and switch between your preferred designs.
-- Secure Authentication: Utilize Firebase's secure authentication system to create and access your account, ensuring your data and preferences are protected.
-- Smooth Browsing Experience: Enjoy a seamless and responsive browsing experience as you effortlessly scroll through wallpapers with optimized performance.
-- User-Friendly Interface: Navigate through the app with ease, thanks to an intuitive and user-friendly interface designed to enhance your overall experience.
+- **User-friendly Interface:**
+
+  - Intuitive and easy-to-navigate design for a seamless user experience.
+
+- **Create, Update, and Delete Notes:**
+
+  - Ability to create new notes with titles and content.
+  - Edit and update existing notes effortlessly.
+  - Conveniently delete notes when no longer needed.
+
+- **Rich Text Editor:**
+
+  - Powerful rich text editor for formatting notes with bold, italic, bullet points, and more.
+  - Support for headings, lists, quotes, and code blocks for organized content.
+
+- **Bookmarking:**
+
+  - Add bookmarks to important notes for quick reference.
+  - Easy access to bookmarked notes for efficient retrieval.
+
+- **Google Authentication:**
+
+  - Securely sign in using Google accounts for streamlined access.
+  - Maintain data privacy and user security with Google's authentication framework.
+
+- **Smooth UI with Lottie Animations:**
+
+  - Enhance user experience with fluid animations using Lottie.
+  - Engaging transitions and loading animations for a visually appealing interface.
+
+- **Cloud Sync and Backup:**
+  - Synchronize notes across devices for seamless access on the go.
+  - Automatically back up notes to the cloud to prevent data loss.
 
 ## Live APK
 
@@ -21,8 +49,8 @@ Coming Soon
 ## View Preview
 
 <iframe
-    width="1280"
-    height="720"
+    width="640"
+    height="360"
     src="https://www.youtube.com/embed/ldbconEZ040"
     frameborder="0"
     allow="autoplay; encrypted-media"
